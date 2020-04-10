@@ -1,0 +1,150 @@
+/* Call fonts */
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/gotham/GothamRounded-Book.otf'),
+         url('../fonts/gotham/GothamRoundedBook_21018.ttf');
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../fonts/gotham/GothamRounded-Medium.otf'),
+         url('../fonts/gotham/GothamRoundedMedium_21022.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:link {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 'Gotham Book';
+    color: #4a4a4a;
+    margin: 0 5%;
+}
+
+header {
+    height: 85px;
+}
+
+nav {
+    width: 88%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+    margin-top: 35px;
+    padding-left: 0;
+
+}
+
+nav ul li {
+    padding: 10px 35px;
+    list-style: none;
+    font-family: 'Gotham Medium';
+}
+
+.name {
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 10px 10px 10px 0;
+}
+
+.banner {
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin: auto;
+}
+
+.left,
+.right {
+    width: 45%;
+}
+
+.left {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    justify-self: center;
+}
+
+.portfolio-container {
+    background-color: white;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.portfolio-container h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+.card {
+    width: 290px;
+    margin-bottom: 40px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.contact {
+    text-align: center;
+    margin: 80px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact p {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.bold {
+    font-family: "Gotham Medium";
+    margin-top: 50px;
+}
+
+.contact > p:nth-child(3) {
+    margin-top: 40px;
+    font-size: 1.25rem;
+}
+.contact > p:nth-child(4) {
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+
+footer {
+    width: 80%;
+    border-top: 1px solid #4a4a64;
+    margin: auto;
+}
+   
+
+body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4) {
+    padding-right: 0px;
+   }
+   
+   
