@@ -163,6 +163,7 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
         margin-bottom: 20px;
         align-items: stretch;
         text-align: center;
+        margin-top: 15px;
     }
 
     nav ul li {
@@ -198,6 +199,14 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
         font-size: 1rem;
         text-align: center;
         max-width: 450px;
+    }
+
+    .portfolio-container {
+        padding: 40px 15px;
+    }
+
+    .card {
+        width: 100%;
     }
 }
 @media (min-width: 768px) {}
