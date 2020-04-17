@@ -44,14 +44,14 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    font-size: 1.25rem;
+    font-size: 0.938;
     margin-top: 35px;
     padding-left: 0;
 
 }
 
 nav ul li {
-    padding: 10px 35px;
+    padding: 10px 30px;
     list-style: none;
     font-family: 'Gotham Medium';
 }
@@ -59,7 +59,7 @@ nav ul li {
 .name {
     margin-right: auto;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     padding: 10px 10px 10px 0;
 }
 
@@ -79,7 +79,7 @@ nav ul li {
 .left {
     font-size: 1.3rem;
     line-height: 1.5;
-    justify-self: center;
+    flex-basis: 55%;
 }
 
 .portfolio-container {
