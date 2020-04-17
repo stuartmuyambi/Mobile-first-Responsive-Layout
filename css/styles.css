@@ -84,7 +84,7 @@ nav ul li {
 
 .portfolio-container {
     background-color: white;
-    margin-top: 100px;
+    margin-top: 70px;
     padding: 50px;
     text-align: center;
     line-height: 1.5;
@@ -151,6 +151,9 @@ footer {
     margin: 0;
     text-align: center;
     line-height: 1.5;
+}
+
+h2 { font-size: 1.2rem;
 }
    
 
