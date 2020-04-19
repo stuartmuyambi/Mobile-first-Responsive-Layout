@@ -95,21 +95,35 @@ nav ul li a {
 
 /* portfolio section styles */
 
+h2,
+h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Gotham Medium';
+}
+
 .portfolio-container {
     background-color: white;
-    padding: 0 5%;
+    padding: 10% 5%;
 }
 
 .portfolio-items {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .card {
     width: 100%;
     text-align: center;
+    margin-top: 30px;
 }
 
 .card img {
     width: 100%;
+}
+
+.card p {
+    padding: 0 13px;
+    line-height: 1.5;
 }
