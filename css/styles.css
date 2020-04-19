@@ -38,6 +38,8 @@ header {
 
 nav {
     width: 100%;
+    text-align: center;
+    margin-top: 30px;
 }
 
 nav ul {
@@ -69,6 +71,7 @@ nav ul li a {
     font-weight: 600;
     font-size: 1.5rem;
     background-color: #fafafa;
+    text-align: center;
 }
 
 .main-header {
@@ -149,7 +152,7 @@ h3 {
 
 strong {
     font-family: 'Gotham Medium';
-    padding-left: 5px;
+    padding-left: 3px;
 }
 
 /* footer styles */
@@ -187,14 +190,15 @@ footer a {
     .tab-nav {
         display: none;
     }
+
+    .tab-foot {
+        display: none;
+    }
 }
 
 @media screen and (min-width:768px) {
 
-    .mobile-nav {
-        display: none;
-    }
-
+    /* Header styles */
     header {
         padding-bottom: 70px;
     }
@@ -221,5 +225,142 @@ footer a {
         padding: 0 40px 0 0;
         font-size: 1.1rem;
     }
+
+    nav {
+        padding: 0 180px;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav ul li {
+        background-color: #fafafa;
+    }
+    
+
+    /* portfolio styles */
+        
+    .portfolio-container {
+        background-color: white;
+        padding: 8% 3%;
+    }
+
+    .portfolio-items {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 50%;
+        text-align: center;
+        margin-top: 30px;
+        flex-basis: 49%;
+    }
+
+    .card img {
+        width: 98%;
+    }
+
+    .card p {
+        padding: 0 13px;
+        line-height: 1.5;
+    }
+
+    /* contact styles */
+
+    .contact p {
+        padding: 0 120px;
+        font-size: 1.1rem;
+    }
+
+
+    /* footer styles */
+
+    footer {
+        border-top: 1px solid #e7e7e7;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-top: 0;
+    }
+
+    .mobile-footer {
+        display: none;
+    }
+
+    footer nav ul {
+        flex-direction: row;
+    }
+
+    footer nav ul li a,
+    footer nav ul li{
+        background-color: #fafafa;
+        font-size: 0.9rem;
+    }
+
+    .tab-name-footer {
+        margin-right: auto;
+        font-family: 'Gotham Medium';
+        font-size: 1rem;
+    }
+
+    .tab-foot {
+        display: initial;
+    }
+
+    footer nav ul {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    nav ul{
+        margin: 0;
+    }
+
+    .name {
+        margin-right: auto;
+    }
+
+    .header-left p{
+        padding-right: 0;
+        font-size: 1.2rem;
+    }
+
+    .main-header {
+        padding-top: 0;
+        margin-top: 40px;
+    }
+
+    .portfolio-container {
+        padding-top: 3%;
+        margin: 0 3%;
+    }
+
+    .portfolio-items {
+        justify-content: space-between;
+    }
+
+    .card {
+        flex-basis: 33%;
+    }
+
+    .contact > p {
+        font-size: 1.2rem;
+        padding: 0 230px;
+    }
+
+    .tab-foot ul{
+        padding-top: 40px;
+    }
+       
 
 }
