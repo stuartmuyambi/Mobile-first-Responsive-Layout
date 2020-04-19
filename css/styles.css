@@ -208,6 +208,11 @@ footer a {
         padding-bottom: 70px;
     }
 
+    .mobile-nav {
+        margin-top: 50px;
+    }
+       
+
     .main-header {
         flex-direction: row;
         justify-content: space-between;
@@ -318,6 +323,12 @@ footer a {
     footer nav ul {
         margin: 0;
     }
+
+    .mobile-nav > ul:nth-child(2) > li:nth-child(3) {
+        margin-right: 0px;
+        padding-right: 0px;
+       }
+       
 }
 
 @media screen and (min-width:1024px) {
