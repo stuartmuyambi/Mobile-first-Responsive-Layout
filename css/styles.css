@@ -1,4 +1,4 @@
-/* Call fonts */
+/* Add Custom fonts */
 
 @font-face {
     font-family: 'Gotham Book';
@@ -12,7 +12,80 @@
          url('../fonts/gotham/GothamRoundedMedium_21022.ttf');
 }
 
+/* Universal Styles */
+
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Gotham Book';
+    padding: 0 5%;
+    color: #4a4a4a;
+    background-color: #fafafa;
+}
+
+a:link {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+/* Header Styles */
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    text-align: center;
+    padding-left: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10px 15px;
+    background-color: white;
+    margin: 2px;
+}
+
+nav ul li a {
+    color: #4a4a4a;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-family: 'Gotham Medium';
+}
+
+.name {
+    font-family: 'Gotham Medium';
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: #fafafa;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.header-right {
+    width: 70%;
+}
+
+.header-left p {
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 30px;
+    max-width: 450px;
+    padding: 10px;
+}
+
+.header-right img{
+    width: 100%;
 }
