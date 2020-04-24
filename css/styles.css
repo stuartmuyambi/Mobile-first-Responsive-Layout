@@ -30,6 +30,7 @@ body {
     color: var(--primary-text);
     background-color: var(--bg-primary);
     max-width: 1500px;
+    margin: 0 auto;
 }
 
 a:link {
